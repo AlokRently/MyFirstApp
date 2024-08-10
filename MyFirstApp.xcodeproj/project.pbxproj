@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		985548082C6807840091E144 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985548072C6807840091E144 /* AudioToolbox.framework */; };
 		98746E1B2C679B3F007F3F28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98746E1A2C679B3F007F3F28 /* AppDelegate.m */; };
 		98746E1E2C679B3F007F3F28 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98746E1D2C679B3F007F3F28 /* SceneDelegate.m */; };
 		98746E212C679B3F007F3F28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98746E202C679B3F007F3F28 /* ViewController.m */; };
@@ -18,6 +19,9 @@
 		98746E392C679B40007F3F28 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98746E382C679B40007F3F28 /* MyFirstAppTests.m */; };
 		98746E432C679B40007F3F28 /* MyFirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98746E422C679B40007F3F28 /* MyFirstAppUITests.m */; };
 		98746E452C679B40007F3F28 /* MyFirstAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98746E442C679B40007F3F28 /* MyFirstAppUITestsLaunchTests.m */; };
+		98746E522C679B9A007F3F28 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98746E512C679B9A007F3F28 /* Cat.wav */; };
+		98746E532C679B9A007F3F28 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98746E512C679B9A007F3F28 /* Cat.wav */; };
+		98746E542C679B9A007F3F28 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98746E512C679B9A007F3F28 /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		985548072C6807840091E144 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		98746E162C679B3F007F3F28 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98746E192C679B3F007F3F28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98746E1A2C679B3F007F3F28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +61,7 @@
 		98746E3E2C679B40007F3F28 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98746E422C679B40007F3F28 /* MyFirstAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppUITests.m; sourceTree = "<group>"; };
 		98746E442C679B40007F3F28 /* MyFirstAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		98746E512C679B9A007F3F28 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985548082C6807840091E144 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		985548062C6807830091E144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				985548072C6807840091E144 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98746E0D2C679B3F007F3F28 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +105,7 @@
 				98746E372C679B40007F3F28 /* MyFirstAppTests */,
 				98746E412C679B40007F3F28 /* MyFirstAppUITests */,
 				98746E172C679B3F007F3F28 /* Products */,
+				985548062C6807830091E144 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +133,7 @@
 				98746E2A2C679B40007F3F28 /* LaunchScreen.storyboard */,
 				98746E2D2C679B40007F3F28 /* Info.plist */,
 				98746E2E2C679B40007F3F28 /* main.m */,
+				98746E512C679B9A007F3F28 /* Cat.wav */,
 				98746E252C679B3F007F3F28 /* MyFirstApp.xcdatamodeld */,
 			);
 			path = MyFirstApp;
@@ -245,6 +262,7 @@
 				98746E2C2C679B40007F3F28 /* LaunchScreen.storyboard in Resources */,
 				98746E292C679B40007F3F28 /* Assets.xcassets in Resources */,
 				98746E242C679B3F007F3F28 /* Main.storyboard in Resources */,
+				98746E522C679B9A007F3F28 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98746E532C679B9A007F3F28 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98746E542C679B9A007F3F28 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,9 +470,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QN83G8JG7N;
+				DEVELOPMENT_TEAM = R7S39UR27F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -467,6 +488,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,9 +499,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QN83G8JG7N;
+				DEVELOPMENT_TEAM = R7S39UR27F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -494,6 +517,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
